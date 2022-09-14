@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+JP:wght@100;300;400;500;700&family=Poppins:wght@200;400;600&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive
+}
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+
+}
+.container-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.content {
+    width: 50%;
+}
+
+.content h1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    border-left: 2px solid #FF5959;
+    margin-bottom: 34px;
+}
+
+.orange {
+    color: #FFAD5A;
+}
+
+
+.content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+    margin-bottom: 25px;
+}
+
+.content button {
+    width: 172px;
+    height: 48px;
+    left: 156px;
+    top: 418px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 34px;
+}
+
+.content button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.content {
+    width: 50%;
+    margin: 20px;
+}
+
+.content img {
+    width: 100%;
+}
+
+
+.my-mission {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.mission-part h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mission {
+
+    width: 30%;
+    height: 30%;
+    left: 138px;
+    top: 683px;
+    background: rgba(79, 157, 166, 0.1);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 26px;
+    padding: 30px;
+}
+
+.mission-img img {
+    width: 100%;
+
+}
+
+.text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #424242;
+}
+
+.vission {
+
+    margin: 0 5%;
+    width: 30%;
+    height: 30%;
+    left: 529px;
+    top: 693px;
+    padding: 30px;
+    background: rgba(255, 89, 89, 0.1);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 26px;
+}
+
+.vission-img img {
+    width: 100%;
+}
+
+.goal {
+    width: 30%;
+    height: 30%;
+    left: 913px;
+    top: 693px;
+    padding: 30px;
+    background: #FFF4D6;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 26px;
+}
+
+.goal-img img {
+    width: 100%;
+}
+
+.container-part {
+    display: flex;
+    margin-top: 150px;
+}
+
+.content h4 {
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    background: #0B0D17;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer-content h3 {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.footer-content p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga'off;
+    color: #D9DBE1;
+}
+
+
+@media (min-width: 320px ) and (max-width:  480px) {
+
+    .content-txt{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    
+  }
+  
+  /* @media (min-width: 481px  ) and (max-width:  768px) {
+    .content .mission .vission .goal{
+        width: 100%;
+    }
+  }
+  @media (min-width:769px  ) and (max-width:  1024px) {
+    .content .mission .vission .goal{
+        width: 100%;
+    }
+  }
+  
+  @media (min-width: 1025px ) and (max-width:   1200px) {
+    .content .mission .vission .goal{
+        width: 100%;
+    }
+  } */
+  
